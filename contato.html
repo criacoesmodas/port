@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gustavo Valeiro - Contato</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class = "pagina-contato">
+    <header class = "cabecalho">
+        <div class="container">
+            <h1 class = "logo">Gustavo Valeiro</h1>
+            <nav class = "menu-principal menu-principal--fechado">
+                <button class = "menu-principal__btn">Abrir/fechar menu</button>
+                <ul class = "menu-principal__lista">
+                    <li><a class = "menu-principal__item" href="index.html">Home</a></li>
+                    <li><a class = "menu-principal__item" href="portfolio.html">Portfolio</a></li>
+                    <li><a class = "menu-principal__item  menu-principal__item--atual" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <header class="pagina-cabecalho">
+            <h1 class="pagina-cabecalho__titulo">Contato</h1>
+        </header>
+        <section class="container pagina-conteudo">
+            <h3><p class="text-center">Solicite já seu orçamento</p></h3>
+            <form action="contato.php" class="formulario" method="post">
+                <div class="formulario__grupo formulario__grupo--coluna-esq">
+                    <label class="formulario__label" for="nome">Nome</label><br>
+                    <input class="formulario__campo" id="nome" type="text" name="nome">
+                </div>
+                <div class="formulario__grupo formulario__grupo--coluna-dir">
+                    <label class="formulario__label" for="email">E-mail</label><br>
+                    <input class="formulario__campo" id="email" type="email" name="email">
+                </div>
+                <div class="formulario__grupo">
+                    <label class="formulario__label" for="mensagem">Mensagem</label><br>
+                    <textarea class="formulario__campo" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                </div>
+                <input type="submit" class="formulario__botao" value="Enviar" name="submit">
+            </form>
+            <p class="text-center">
+                Ou se preferir entre em contato por: 
+                <br>Telefone: +55 (66) 99951-4460<br>
+                <br>Email: danyelaaia@gmail.com</p>
+                <p class="text-center">
+                Venha nos visitar em:
+                <br>Rua 30, quadra 71, lote 11 - Santa Rita do Araguaia, Goiás.
+                </p>
+            
+            
+        </section>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d476.08363043411373!2d-53.20206595257845!3d-17.331510285577114!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1573244370454!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+         </div>
+    </main>
+    <footer class = "rodape">
+        <div class = "rodape__linha1">
+            <div class="container">
+                <div class = "rodape__coluna">
+                    <a href="index.html" class = "logo logo--branco">CM</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex laborum minus debitis ad doloremque distinctio alias tenetur officiis expedita, fugiat ducimus iusto quod, dicta vel nostrum repellendus assumenda aliquid qui.</p>
+                </div>
+                <div class = "rodape__coluna">
+                    <h2 class = "rodape__titulo">Social</h2>
+                    <ul class = "rodape__lista-links">
+                        <li><a class = "rodape__lista-links__item" href="https://twitter.com" target = "_blank">Twitter</a></li>
+                        <li><a class = "rodape__lista-links__item" href="https://facebook.com" target = "_blank">Facebook</a></li>
+                        <li><a class = "rodape__lista-links__item" href="https://instagram.com" target = "_blank">Instagram</a></li>
+                        <li><a class = "rodape__lista-links__item" href="https://youtube.com" target = "_blank">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class = "rodape__coluna">
+                    <h2 class = "rodape__titulo">Links</h2>
+                    <ul class = "rodape__lista-links">
+                        <li><a class = "rodape__lista-links__item" href="index.html">Home</a></li>
+                        <li><a class = "rodape__lista-links__item" href="portfolio.html">Portfolio</a></li>
+                        <li><a class = "rodape__lista-links__item" href="contato.html">Contato</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class = "rodape__linha2">
+            2019 - Lucio. 
+        </div>
+    </footer>
+</body>
+</html>
